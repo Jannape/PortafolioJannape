@@ -369,6 +369,7 @@ body {
 .navbar.shrink {
     background: #ffffff;
     margin: 0;
+    padding: 17px;
     box-shadow: 0 8px 6px -9px #999;
 }
 
@@ -433,6 +434,7 @@ body {
     .navbar .navbar-header .navbar-brand {
         width: 120px;
     }
+  
 
     .navbar .navbar-nav li{
         padding: 0 15px !important;
@@ -542,7 +544,7 @@ body {
     width:20px;
     border-radius:4px;
     cursor: pointer;
-    display:table;
+    display:none;
     position:relative;
     z-index:1102;
     z-index:1102;
@@ -716,9 +718,11 @@ nav.navbar.bootsnav.navbar-fixed .menu_bars{
 }
 
 @media screen and (max-width: 1199px) {
+  
     .pushmenu .push-logo > img{
         width: 82px;
     }
+
 }
 .pushmenu .push_nav{ width:100%; z-index:100; background:#fff;}
 .pushmenu .push_nav li a:hover {
@@ -1201,8 +1205,8 @@ body.pushmenu-push-toLeft{
 
 .user_picture{
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     overflow: hidden;
     border: 2px solid #fff;
     margin: 0 auto;
@@ -3201,11 +3205,17 @@ ul.packages li i{
     .not_found_stlye .revtp-searchform input#s{
         width:280px
     }
-}
+   
+    /* .menu_bars { */
+        /* display: none;
+    } */
+ 
+
 @media only screen and (max-width:479px){
     .not_found_stlye .revtp-searchform input#s{
         width:200px
     }
+ 
 }
 
 
@@ -3213,21 +3223,32 @@ ul.packages li i{
     .container_big {
         width: 1360px;
     }
+
+   
+  
 }
 
 /* 1300px Medium Screen */
 @media only screen and (max-width: 1300px) {
+ 
     .columned_portfolio_heading{
         font-size: 26px;
     }
+ 
+
+    
 }
+
 
 /* 1200px Medium Screen */
 @media only screen and (max-width: 1200px){
-
+.menu_bars {
+    display: block;
+}
     .big_padding{
         padding: 100px 0;
     }
+  
 
     .client_detail{
         padding: 0;
@@ -3249,7 +3270,7 @@ ul.packages li i{
 
 /* 991px Tablet Screen */
 @media only screen and (max-width: 992px){
-
+ 
     .columned_portfolio_heading{
         text-align: center;
     }
@@ -3557,16 +3578,19 @@ ul.packages li i{
     .default_small_heading{
         font-size: 16px;
     }
-
+ 
 
 }
+
 
 /* 768px Medium Screen */
 @media only screen and (max-width: 768px){
 
+
     .default_section_heading{
         font-size: 28px;
     }
+  
 
     .swiper-slider-heading{
         font-size: 28px;
@@ -3769,4 +3793,4 @@ ul.packages li i{
 
 }
 
-
+}
