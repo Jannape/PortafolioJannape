@@ -2014,6 +2014,7 @@ ul.packages li i{
 }
 
 .blog_img{
+    padding-right: 40px;
     width: 100%;
     overflow: hidden;
     margin: 15px 0;
